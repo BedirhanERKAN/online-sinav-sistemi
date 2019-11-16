@@ -1,0 +1,5 @@
+RewriteEngine On
+    RewriteRule index.js                               index_js.php [L,NC]
+
+
+

@@ -47,3 +47,14 @@ Import işleminin başarılı bir şekilde gerçekleştirdikten sonra skortablos
 ![](https://raw.githubusercontent.com/BedirhanERKAN/online-sinav-sistemi/master/not-ekran.png)
 
 > Sınavı tamamlamak için kullanacağınız 'scoreboard.php' sayfasını tetiklemeniz durumunda Skor Tablosu oluşturarak, ana ekranda gözükecektir.
+
+
+# Önemli Noktalar
+
+> log klasörü altında sınava giren kişilerin cevaplandırdığı şıklar ve sorular bulunmaktadır.
+
+> Sınavı tamamladıktan sonra sistem otomatik olarak arka planda questionAnswer.php dosyasına POST işlemi gerçekleştirmektedir.
+
+> index_js.php içerisinde yer alan Php ve SQL kodları ile soruların rastgelmesini, soru başına düşen süreyi ayarlayabilirsiniz.
+
+> Dosyaları çalıştırığınızda kesinlikle .htaccess olmasına dikkat ediniz. index.js dosyasının görevini index_js.php yapmaktadır. Bu görevi arka planda yönlendirme işlemi yaparak gerçekleştirmektedir.
